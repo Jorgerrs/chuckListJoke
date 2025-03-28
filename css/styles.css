@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,5 +27,24 @@ button:hover {
   background-color: #0056b3;
 }
 
+li{
+border: solid 1px black;
+list-style: none;
+padding: 10px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+}
+.btn-eliminar {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn-eliminar:hover {
+  background-color: darkred;
+}
 
 
